@@ -1,0 +1,294 @@
+{
+  "version": "2026.1.0",
+  "currency": "USD",
+  "currency_symbol": "$",
+  "profile": {
+    "name": "Alex & Jordan Taylor",
+    "occupation": "Senior Product Designer & Systems Consultant",
+    "household_type": "Dual-Income Professional Household",
+    "fiscal_year": 2026,
+    "target_savings_rate_pct": 25.0,
+    "emergency_fund_target_months": 6,
+    "monthly_baseline_burn": 6670.00
+  },
+  "income_sources": [
+    {
+      "id": "inc_01",
+      "name": "Primary Design Lead Salary (Net)",
+      "cadence": "Bi-Weekly",
+      "monthly_amount": 7250.00,
+      "taxable": true,
+      "growth_projection_pct": 3.5
+    },
+    {
+      "id": "inc_02",
+      "name": "UX Systems Consulting & Retainers",
+      "cadence": "Monthly",
+      "monthly_amount": 1850.00,
+      "taxable": true,
+      "growth_projection_pct": 5.0
+    },
+    {
+      "id": "inc_03",
+      "name": "HYSA & Index Fund Dividend Yields",
+      "cadence": "Monthly",
+      "monthly_amount": 320.00,
+      "taxable": false,
+      "growth_projection_pct": 4.2
+    }
+  ],
+  "budget_envelopes": [
+    {
+      "category_id": "needs_housing",
+      "name": "Housing (Mortgage / Lease)",
+      "bucket": "Needs",
+      "target_50_30_20": "Needs",
+      "monthly_budget": 2450.00,
+      "icon": "home",
+      "notes": "Includes property escrow and HOA dues"
+    },
+    {
+      "category_id": "needs_utilities",
+      "name": "Utilities, Fiber & Energy",
+      "bucket": "Needs",
+      "target_50_30_20": "Needs",
+      "monthly_budget": 380.00,
+      "icon": "zap",
+      "notes": "Electric, municipal water, 1Gbps fiber internet"
+    },
+    {
+      "category_id": "needs_groceries",
+      "name": "Groceries & Household Essentials",
+      "bucket": "Needs",
+      "target_50_30_20": "Needs",
+      "monthly_budget": 750.00,
+      "icon": "shopping-bag",
+      "notes": "Organic fresh food and household supplies"
+    },
+    {
+      "category_id": "needs_healthcare",
+      "name": "Healthcare, HSA & Prescriptions",
+      "bucket": "Needs",
+      "target_50_30_20": "Needs",
+      "monthly_budget": 420.00,
+      "icon": "activity",
+      "notes": "Pre-funded health accounts and dental coverage"
+    },
+    {
+      "category_id": "needs_transit",
+      "name": "Transportation & EV Charging",
+      "bucket": "Needs",
+      "target_50_30_20": "Needs",
+      "monthly_budget": 480.00,
+      "icon": "truck",
+      "notes": "Auto insurance, home EV charging, maintenance reserve"
+    },
+    {
+      "category_id": "needs_software_tools",
+      "name": "Essential Work Tools & Cloud",
+      "bucket": "Needs",
+      "target_50_30_20": "Needs",
+      "monthly_budget": 150.00,
+      "icon": "cloud",
+      "notes": "Design and development tool subscriptions"
+    },
+    {
+      "category_id": "wants_dining",
+      "name": "Artisan Dining & Coffee Roasters",
+      "bucket": "Wants",
+      "target_50_30_20": "Wants",
+      "monthly_budget": 550.00,
+      "icon": "coffee",
+      "notes": "Weekend dinners and local specialty coffee"
+    },
+    {
+      "category_id": "wants_entertainment",
+      "name": "Concerts, Movies & Streaming",
+      "bucket": "Wants",
+      "target_50_30_20": "Wants",
+      "monthly_budget": 180.00,
+      "icon": "film",
+      "notes": "Streaming audio/video and live cultural events"
+    },
+    {
+      "category_id": "wants_shopping",
+      "name": "Apparel, Gear & Tech Upgrades",
+      "bucket": "Wants",
+      "target_50_30_20": "Wants",
+      "monthly_budget": 350.00,
+      "icon": "tag",
+      "notes": "Quality lifestyle upgrades and sustainable wear"
+    },
+    {
+      "category_id": "wants_fitness",
+      "name": "Fitness, Climbing & Wellness",
+      "bucket": "Wants",
+      "target_50_30_20": "Wants",
+      "monthly_budget": 220.00,
+      "icon": "heart",
+      "notes": "Gym membership and wellness recovery"
+    },
+    {
+      "category_id": "wants_travel",
+      "name": "Weekend Travel & Escapes",
+      "bucket": "Wants",
+      "target_50_30_20": "Wants",
+      "monthly_budget": 600.00,
+      "icon": "compass",
+      "notes": "Quarterly travel sinking fund allocation"
+    },
+    {
+      "category_id": "wants_personal_care",
+      "name": "Grooming & Personal Care",
+      "bucket": "Wants",
+      "target_50_30_20": "Wants",
+      "monthly_budget": 140.00,
+      "icon": "smile",
+      "notes": "Barber, skincare, and personal grooming"
+    },
+    {
+      "category_id": "savings_emergency",
+      "name": "6-Month Liquid Runway (HYSA)",
+      "bucket": "Savings",
+      "target_50_30_20": "Savings",
+      "monthly_budget": 650.00,
+      "icon": "shield",
+      "notes": "Target $40,000 cash reserve earning 4.8% APY"
+    },
+    {
+      "category_id": "savings_index_funds",
+      "name": "Taxable Index ETF (VTI / VXUS)",
+      "bucket": "Savings",
+      "target_50_30_20": "Savings",
+      "monthly_budget": 1200.00,
+      "icon": "trending-up",
+      "notes": "Automated weekly dollar-cost averaging"
+    },
+    {
+      "category_id": "debt_extra_payoff",
+      "name": "Accelerated Debt Elimination Sprint",
+      "bucket": "Debt",
+      "target_50_30_20": "Savings",
+      "monthly_budget": 900.00,
+      "icon": "zap-off",
+      "notes": "Dedicated avalanche accelerator fund"
+    }
+  ],
+  "debts": [
+    {
+      "id": "debt_01",
+      "name": "Apex Platinum Card (Emergency Repair)",
+      "principal_balance": 4850.00,
+      "annual_interest_rate_pct": 23.99,
+      "minimum_monthly_payment": 145.00,
+      "category": "Revolving Credit",
+      "snowball_priority_rank": 2,
+      "avalanche_priority_rank": 1
+    },
+    {
+      "id": "debt_02",
+      "name": "Tech Studio Equipment Financing",
+      "principal_balance": 1250.00,
+      "annual_interest_rate_pct": 18.50,
+      "minimum_monthly_payment": 65.00,
+      "category": "Consumer Installment",
+      "snowball_priority_rank": 1,
+      "avalanche_priority_rank": 2
+    },
+    {
+      "id": "debt_03",
+      "name": "All-Electric Commuter Vehicle Loan",
+      "principal_balance": 14200.00,
+      "annual_interest_rate_pct": 5.49,
+      "minimum_monthly_payment": 320.00,
+      "category": "Auto Loan",
+      "snowball_priority_rank": 3,
+      "avalanche_priority_rank": 3
+    },
+    {
+      "id": "debt_04",
+      "name": "Federal Direct Graduate Student Loan",
+      "principal_balance": 18600.00,
+      "annual_interest_rate_pct": 4.80,
+      "minimum_monthly_payment": 210.00,
+      "category": "Student Loan",
+      "snowball_priority_rank": 4,
+      "avalanche_priority_rank": 4
+    }
+  ],
+  "smart_rules": [
+    { "keyword": "WHOLEFDS", "category_id": "needs_groceries", "confidence": 0.98 },
+    { "keyword": "TRADER JOE", "category_id": "needs_groceries", "confidence": 0.98 },
+    { "keyword": "SAFEWAY", "category_id": "needs_groceries", "confidence": 0.95 },
+    { "keyword": "KROGER", "category_id": "needs_groceries", "confidence": 0.95 },
+    { "keyword": "MORTGAGE", "category_id": "needs_housing", "confidence": 0.99 },
+    { "keyword": "RENT", "category_id": "needs_housing", "confidence": 0.99 },
+    { "keyword": "ELECTRIC", "category_id": "needs_utilities", "confidence": 0.95 },
+    { "keyword": "CONEDISON", "category_id": "needs_utilities", "confidence": 0.98 },
+    { "keyword": "VERIZON", "category_id": "needs_utilities", "confidence": 0.95 },
+    { "keyword": "COMCAST", "category_id": "needs_utilities", "confidence": 0.95 },
+    { "keyword": "BLUECROSS", "category_id": "needs_healthcare", "confidence": 0.96 },
+    { "keyword": "CVS PHARMACY", "category_id": "needs_healthcare", "confidence": 0.94 },
+    { "keyword": "CHARGEPOINT", "category_id": "needs_transit", "confidence": 0.96 },
+    { "keyword": "TESLA SUPERCHARGER", "category_id": "needs_transit", "confidence": 0.97 },
+    { "keyword": "GEICO", "category_id": "needs_transit", "confidence": 0.97 },
+    { "keyword": "GITHUB", "category_id": "needs_software_tools", "confidence": 0.99 },
+    { "keyword": "FIGMA", "category_id": "needs_software_tools", "confidence": 0.99 },
+    { "keyword": "AWS", "category_id": "needs_software_tools", "confidence": 0.98 },
+    { "keyword": "STARBUCKS", "category_id": "wants_dining", "confidence": 0.95 },
+    { "keyword": "BLUE BOTTLE", "category_id": "wants_dining", "confidence": 0.96 },
+    { "keyword": "CHIPOTLE", "category_id": "wants_dining", "confidence": 0.94 },
+    { "keyword": "UBER EATS", "category_id": "wants_dining", "confidence": 0.95 },
+    { "keyword": "DOORDASH", "category_id": "wants_dining", "confidence": 0.95 },
+    { "keyword": "NETFLIX", "category_id": "wants_entertainment", "confidence": 0.99 },
+    { "keyword": "SPOTIFY", "category_id": "wants_entertainment", "confidence": 0.99 },
+    { "keyword": "AMAZON", "category_id": "wants_shopping", "confidence": 0.85 },
+    { "keyword": "EQUINOX", "category_id": "wants_fitness", "confidence": 0.98 },
+    { "keyword": "AIRBNB", "category_id": "wants_travel", "confidence": 0.98 },
+    { "keyword": "DELTA AIR", "category_id": "wants_travel", "confidence": 0.98 },
+    { "keyword": "VANGUARD", "category_id": "savings_index_funds", "confidence": 0.99 },
+    { "keyword": "FIDELITY", "category_id": "savings_index_funds", "confidence": 0.99 }
+  ],
+  "sample_transactions": [
+    { "id": "tx_101", "date": "2026-01-02", "payee": "First National Mortgage Servicing", "amount": 2450.00, "category_id": "needs_housing", "type": "expense", "notes": "January Escrow & Principal" },
+    { "id": "tx_102", "date": "2026-01-03", "payee": "NextEra Clean Power & Electric", "amount": 215.40, "category_id": "needs_utilities", "type": "expense", "notes": "Winter heating bill" },
+    { "id": "tx_103", "date": "2026-01-04", "payee": "Whole Foods Market #084", "amount": 184.22, "category_id": "needs_groceries", "type": "expense", "notes": "Weekly produce & pantry restock" },
+    { "id": "tx_104", "date": "2026-01-05", "payee": "Figma Enterprise Monthly", "amount": 45.00, "category_id": "needs_software_tools", "type": "expense", "notes": "Design workstation license" },
+    { "id": "tx_105", "date": "2026-01-06", "payee": "Blue Bottle Single Origin Coffee", "amount": 28.50, "category_id": "wants_dining", "type": "expense", "notes": "Espresso beans & pour-over" },
+    { "id": "tx_106", "date": "2026-01-08", "payee": "Apex Platinum Card Auto-Debit", "amount": 750.00, "category_id": "debt_extra_payoff", "type": "expense", "notes": "Avalanche principal accelerator payment" },
+    { "id": "tx_107", "date": "2026-01-10", "payee": "Vanguard Total Market DCA", "amount": 600.00, "category_id": "savings_index_funds", "type": "expense", "notes": "Bi-weekly ETF auto-allocation" },
+    { "id": "tx_108", "date": "2026-01-12", "payee": "Trader Joe's Specialty Goods", "amount": 142.10, "category_id": "needs_groceries", "type": "expense", "notes": "Mid-month staples" },
+    { "id": "tx_109", "date": "2026-01-14", "payee": "Netflix 4K Ultra Subscription", "amount": 22.99, "category_id": "wants_entertainment", "type": "expense", "notes": "Streaming membership" },
+    { "id": "tx_110", "date": "2026-01-15", "payee": "Studio Design Retainer Direct Deposit", "amount": 3625.00, "category_id": "income_primary", "type": "income", "notes": "Mid-month payroll distribution" },
+    { "id": "tx_111", "date": "2026-01-16", "payee": "ChargePoint Fast Charging", "amount": 44.80, "category_id": "needs_transit", "type": "expense", "notes": "Commuter charging session" },
+    { "id": "tx_112", "date": "2026-01-18", "payee": "Bouldering & Fitness Collective", "amount": 110.00, "category_id": "wants_fitness", "type": "expense", "notes": "Monthly gym membership" },
+    { "id": "tx_113", "date": "2026-01-20", "payee": "Osteria Mozza Fine Dining", "amount": 185.00, "category_id": "wants_dining", "type": "expense", "notes": "Anniversary celebratory dinner" },
+    { "id": "tx_114", "date": "2026-01-22", "payee": "High-Yield Reserve Deposit", "amount": 325.00, "category_id": "savings_emergency", "type": "expense", "notes": "Emergency cushion build" },
+    { "id": "tx_115", "date": "2026-01-24", "payee": "Vanguard Total Market DCA", "amount": 600.00, "category_id": "savings_index_funds", "type": "expense", "notes": "Bi-weekly ETF auto-allocation" },
+    { "id": "tx_116", "date": "2026-01-26", "payee": "Auto Finance Monthly Amortization", "amount": 320.00, "category_id": "needs_transit", "type": "expense", "notes": "Auto loan principal & interest" },
+    { "id": "tx_117", "date": "2026-01-28", "payee": "Federal Student Aid Servicing", "amount": 210.00, "category_id": "needs_healthcare", "type": "expense", "notes": "Monthly student loan installment" },
+    { "id": "tx_118", "date": "2026-01-30", "payee": "Studio Design Retainer Direct Deposit", "amount": 3625.00, "category_id": "income_primary", "type": "income", "notes": "End-of-month payroll distribution" },
+    { "id": "tx_119", "date": "2026-01-31", "payee": "Fintech Consulting Advisory Retainer", "amount": 1850.00, "category_id": "income_consulting", "type": "income", "notes": "Monthly advisory retainer check" },
+    { "id": "tx_120", "date": "2026-01-31", "payee": "HYSA Monthly Interest Credited", "amount": 164.50, "category_id": "income_dividends", "type": "income", "notes": "4.8% APY cash interest payment" },
+    { "id": "tx_121", "date": "2026-02-02", "payee": "First National Mortgage Servicing", "amount": 2450.00, "category_id": "needs_housing", "type": "expense", "notes": "February Escrow & Principal" },
+    { "id": "tx_122", "date": "2026-02-03", "payee": "Fiber Broadband Telecom", "amount": 95.00, "category_id": "needs_utilities", "type": "expense", "notes": "Gigabit fiber service" },
+    { "id": "tx_123", "date": "2026-02-04", "payee": "Whole Foods Market #084", "amount": 172.50, "category_id": "needs_groceries", "type": "expense", "notes": "Weekly grocery cart" },
+    { "id": "tx_124", "date": "2026-02-05", "payee": "Apex Platinum Card Auto-Debit", "amount": 750.00, "category_id": "debt_extra_payoff", "type": "expense", "notes": "Avalanche principal accelerator payment" },
+    { "id": "tx_125", "date": "2026-02-07", "payee": "Github Copilot & Pro Subscription", "amount": 29.00, "category_id": "needs_software_tools", "type": "expense", "notes": "Developer workstation tools" },
+    { "id": "tx_126", "date": "2026-02-10", "payee": "Vanguard Total Market DCA", "amount": 600.00, "category_id": "savings_index_funds", "type": "expense", "notes": "Scheduled index purchase" },
+    { "id": "tx_127", "date": "2026-02-14", "payee": "Weekend Alpine Lodge Getaway", "amount": 420.00, "category_id": "wants_travel", "type": "expense", "notes": "Mountain weekend cabin rental" },
+    { "id": "tx_128", "date": "2026-02-15", "payee": "Studio Design Retainer Direct Deposit", "amount": 3625.00, "category_id": "income_primary", "type": "income", "notes": "Mid-month payroll distribution" },
+    { "id": "tx_129", "date": "2026-02-18", "payee": "CVS Health & Wellness Prescriptions", "amount": 64.20, "category_id": "needs_healthcare", "type": "expense", "notes": "HSA covered medicine" },
+    { "id": "tx_130", "date": "2026-02-22", "payee": "High-Yield Reserve Deposit", "amount": 325.00, "category_id": "savings_emergency", "type": "expense", "notes": "Emergency cushion build" },
+    { "id": "tx_131", "date": "2026-02-25", "payee": "Spotify Family Hi-Fi Stream", "amount": 19.99, "category_id": "wants_entertainment", "type": "expense", "notes": "Family streaming subscription" },
+    { "id": "tx_132", "date": "2026-02-28", "payee": "Studio Design Retainer Direct Deposit", "amount": 3625.00, "category_id": "income_primary", "type": "income", "notes": "End-of-month payroll distribution" },
+    { "id": "tx_133", "date": "2026-02-28", "payee": "Fintech Consulting Advisory Retainer", "amount": 1850.00, "category_id": "income_consulting", "type": "income", "notes": "Monthly advisory retainer check" }
+  ],
+  "scenario_defaults": {
+    "inflation_rate_pct": 3.2,
+    "variable_income_cushion_pct": 10.0,
+    "investment_growth_rate_pct": 7.5,
+    "hysa_yield_rate_pct": 4.8,
+    "target_runway_months": 6
+  }
+}
